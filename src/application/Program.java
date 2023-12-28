@@ -51,6 +51,8 @@ public class Program {
 		int id = ler.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Delete completed!");
+		
+		ler.close();
 	}
 
 }
